@@ -3,7 +3,7 @@ import PostReducer from './reducer_posts';
 import {reducer as formReducer} from 'redux-form';
 
 const rootReducer = combineReducers({
-  post: PostReducer,
+  posts: PostReducer,
   form: formReducer
 });
 
